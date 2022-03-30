@@ -9,7 +9,7 @@ interface IMenuItems {
 export const MenuItems: React.FC<IMenuItems> = ({ name, icon: Icon }) => {
   return (
     <MenuItem>
-      <Icon size={30} />
+      <Icon size={25} />
       <h3>{name}</h3>
     </MenuItem>
   );

@@ -15,5 +15,12 @@ export const MenuItem = styled.div`
   svg {
     margin-left: 1rem;
     margin-right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
   }
 `;

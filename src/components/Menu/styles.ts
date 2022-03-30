@@ -27,6 +27,9 @@ export const MenuHeader = styled.div`
   h3 {
     font-weight: 700;
     margin-top: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
